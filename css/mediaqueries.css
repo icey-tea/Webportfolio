@@ -1,0 +1,212 @@
+/* Base adjustments for smaller screens */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .main-header {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .main-header .navbar-nav > li > .nav-link {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .home-section {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .home-section .home-intro h1 {
+        font-size: 32px;
+        margin: 0 0 20px;
+    }
+
+    .home-section .home-intro p {
+        font-size: 16px;
+    }
+
+    .home-image img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .feature-box {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature-box .icon {
+        margin: 0 auto 10px;
+    }
+
+    .feature-box .content {
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .feature-box h5 {
+        font-size: 18px;
+    }
+
+    .feature-box p {
+        font-size: 14px;
+    }
+
+    .project-box .project-img {
+        height: auto;
+    }
+
+    .project-box .project-text h4 {
+        font-size: 20px;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-text {
+        font-size: 20px;
+    }
+
+    .footer {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .main-header .navbar-toggler {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main-header .navbar-collapse {
+        width: 100%;
+        border: none;
+        
+    }
+
+    .main-header .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-header .navbar-nav > li + li {
+        border: none;
+        margin-top: 10px;
+    }
+
+    .main-header .navbar-nav > li > .nav-link {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .social-icons-container {
+        font-size: 40px;
+    }
+
+    .social-icons-container-last {
+        font-size: 60px;
+    }
+
+    .contact-block {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 767px) {
+    /* Ensure footer visibility */
+    .footer {
+        padding: 20px 15px; /* Add padding to prevent content spill */
+        text-align: center; /* Center content for a clean look */
+    }
+
+    .foot {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        gap: 10px; /* Add spacing between items */
+    }
+
+    .foot-text {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        padding: 5px 10px; /* Reduce padding */
+    }
+
+    /* Add padding to prevent content from spilling */
+    body {
+        padding: 0 15px; /* Add horizontal padding */
+        box-sizing: border-box; /* Ensure padding doesn't increase width */
+    }
+
+    .section,
+    .contact-block,
+    .project-box,
+    .skills-container {
+        padding: 0 15px; /* Add consistent padding across sections */
+    }
+
+    /* Ensure no horizontal scrolling */
+    img {
+        max-width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Navbar tweaks */
+    .main-header .navbar-nav {
+        padding: 0 15px; /* Add padding inside navbar */
+    }
+
+    /* Contact Section */
+    .contact-form {
+        padding: 15px; /* Adjust padding for smaller screens */
+        box-sizing: border-box;
+    }
+
+    .contact-block {
+        flex-direction: column; /* Stack contact blocks vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-text {
+        font-size: 18px; /* Adjust font size */
+        margin: 10px 0; /* Add spacing */
+    }
+
+    /* General layout adjustments */
+    .home-section .home-intro h1,
+    .home-section .home-intro p {
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .social-icons-container,
+    .social-icons-container-last {
+        font-size: 40px; /* Reduce size of icons */
+        margin-top: 10px;
+    }
+
+    
+}
+

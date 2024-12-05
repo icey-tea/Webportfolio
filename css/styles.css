@@ -670,11 +670,10 @@ main{
 }
 
 .contact-text{
-    font-size: 40px;
     display: flex;
     align-items: center;
     text-align: center;
-    
+    text-decoration: underline;
 }
 
 .contact-text:hover{
